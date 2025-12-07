@@ -1,0 +1,42 @@
+name: Agents metadata check
+
+on:
+  push:
+    paths:
+      - '.github/agents/**'
+  pull_request:
+    paths:
+      - '.github/agents/**'
+
+jobs:
+  check-agents-metadata:
+    name: Check `Conecta-se COM` and `Responde PARA` are present
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify metadata presence in agent files
+        run: |
+          set -euo pipefail
+          missing=0
+          shopt -s nullglob
+          files=(.github/agents/*.agent.md)
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "No .agent.md files present."
+            exit 0
+          fi
+          for file in "${files[@]}"; do
+            echo "Checking $file"
+            if ! grep -q "Conecta-se COM" "$file"; then
+              echo "::error file=$file::Missing 'Conecta-se COM'"
+              missing=1
+            fi
+            if ! grep -q "Responde PARA" "$file"; then
+              echo "::error file=$file::Missing 'Responde PARA'"
+              missing=1
+            fi
+          done
+          if [ $missing -ne 0 ]; then
+            echo "Agents metadata validation failed"
+            exit 1
+          fi
+          echo "All agent files contain required metadata"
