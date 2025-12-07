@@ -312,8 +312,6 @@ Context Engineer:
 
 ## 📐 ESTRUTURA DO CONTEXT.MD (Template)
 
-```markdown
-
 # CONTEXT.md
 
 **Auto-updated by:** Context Engineer  
@@ -386,7 +384,7 @@ All chunks stored in `.aioboss/chunks/`
 | Context Engineer | Agente que mapeia e mantém CONTEXT.md |
 | Chunk | Fragmento de contexto indexado para RAG |
 
-```
+---
 
 **Próxima atualização esperada:** 2024-12-08 (ou quando Context Engineer for acionado)
 
