@@ -28,7 +28,7 @@ AIOBoss é um **conjunto de prompt templates + role definitions distribuído** q
 
 ### Princípios Fundadores
 
-```
+```text
 DRY:   Don't Repeat Yourself
 KISS:  Keep It Simple Stupid
 SSOT:  Single Source of Truth
@@ -45,7 +45,7 @@ SSOT:  Single Source of Truth
 
 ### O Padrão: "Self-Documenting Agentic System"
 
-```
+```text
 Projeto Novo (clonado)
 │
 ├── .aioboss/                          ← Estrutura copiada do template
@@ -101,7 +101,7 @@ code .
 
 ### FASE 2: Bootstrap (Copilot, Semi-Automático)
 
-```
+```text
 Você digita no Copilot Chat:
 """
 Bootstrap agentico. 
@@ -131,7 +131,7 @@ Copilot output:
 
 ### FASE 3: Operação (Você + Copilot, Iterativo)
 
-```
+```text
 Você:
 "Preciso implementar autenticação OAuth2"
 
@@ -182,7 +182,7 @@ Copilot (agora como Context Engineer):
 
 ### FASE 4: Implementação (Dev Agent)
 
-```
+```text
 Copilot (como Dev Agent):
 > read_file: .aioboss/CONTEXT.md
 > read_file: .aioboss/chunks/auth-current-state.md (RAG)
@@ -206,7 +206,7 @@ Copilot (como Dev Agent):
 
 ### FASE 5: Revisão (Você, Humano)
 
-```
+```markdown
 Você:
 "Revisa diffs acima"
 
@@ -233,7 +233,7 @@ Copilot:
 
 Após executar o fluxo acima, você tem:
 
-```
+```text
 .aioboss/
 ├── CONTEXT.md                    ← Estado atual (sempre sincronizado)
 ├── chunks/
@@ -313,6 +313,7 @@ Context Engineer:
 ## 📐 ESTRUTURA DO CONTEXT.MD (Template)
 
 ```markdown
+
 # CONTEXT.md
 
 **Auto-updated by:** Context Engineer  
@@ -385,13 +386,11 @@ All chunks stored in `.aioboss/chunks/`
 | Context Engineer | Agente que mapeia e mantém CONTEXT.md |
 | Chunk | Fragmento de contexto indexado para RAG |
 
----
-
-**Próxima atualização esperada:** 2024-12-08 (ou quando Context Engineer for acionado)
 ```
 
----
+**Próxima atualização esperada:** 2024-12-08 (ou quando Context Engineer for acionado)
 
+```markdown
 ## 🚀 PRÓXIMOS ARTEFATOS A CRIAR (Phase 1)
 
 ### Artefato 1: Bootstrap Prompt (Você digita isso)
@@ -524,7 +523,8 @@ Você é acionado quando:
 ✅ Todas mudanças estão documentadas
 ✅ Chunks estão indexados em .aioboss/chunks/
 ✅ CONTEXT.md reflete estado atual do código
-```
+
+```markdown
 
 ### Artefato 3: Exemplo End-to-End Documentado
 
@@ -666,7 +666,6 @@ Pronto para merge!
 
 ### Resultado Final
 
-```
 .aioboss/
 ├── CONTEXT.md (atualizado com OAuth2)
 ├── chunks/
@@ -687,7 +686,6 @@ M  src/middleware.ts
 M  .aioboss/CONTEXT.md
 A  src/auth/oauth.ts
 A  src/auth/__tests__/oauth.test.ts
-```
 
 **Tudo no git. Rastreável. Zero lock-in.**
 """
@@ -699,7 +697,6 @@ A  src/auth/__tests__/oauth.test.ts
 
 Você saberá que AIOBoss funciona quando:
 
-```
 ✅ Novo dev clona projeto → entende arquitetura em < 5 minutos
 ✅ Agentes NÃO alucinam (usam CONTEXT.md como memória)
 ✅ Feature inteira delegada a Copilot sem supervisão constante
@@ -707,7 +704,6 @@ Você saberá que AIOBoss funciona quando:
 ✅ Documentação é código (não arquivo separado)
 ✅ Zero dependência de plataforma (é só markdown + prompts)
 ✅ Histórico completo em git (auditável)
-```
 
 ---
 
