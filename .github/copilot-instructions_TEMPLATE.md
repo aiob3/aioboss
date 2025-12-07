@@ -1,7 +1,28 @@
 # Copilot instructions — aioboss
 
-Essência: este repositório é um blueprint para replicar um "escritório agentico". O conteúdo operacional vive dentro da pasta `aioboss/` (não há código executável nem CI ativo na raiz); copie/adapte esses artefatos para novos repositórios.
+Essência: este ARQUIVO TEMPLATE é um blueprint para replicar um "escritório agentico". O conteúdo operacional vive dentro da pasta `aioboss/` (não há código executável nem CI ativo na raiz); copie/adapte esses artefatos para novos repositórios.
 
+<NÃO ALTERAR>
+***IMPORTANTE***
+- ESTE ARQUIVO NASCEU DE SUA ORIGEM E NÃO DEVE SER CONSIDERADO COMO FONTE UNICA DE VERDADE EM SUA PRIMEIRA EXECUÇÃO PREENCHA O `FOOTPRINT` ABAIXO PARA COMPROVAR SUA COMPREENSÃO, REVISÃO, ITERAÇÃO ATÉ SUA REFATORAÇÃO FINAL QUE DEVE SER REFLETIVA EM UM NOVO ARQUIVO .github/copilot-instructions.md
+- Adote esta primeira iteração como registro de IDEMPOTENCIA registrada como FONTE ATOMICA para SINGLE SOURCE OF TRUTH (SSOT). Adote termos citados como ddMMyy como (Day Month Year-Hour Minute Second) como fator para idempotencia de forma persistente no prompt como referencia para revisão de dados históricos de padrão atomico DE FORMA CANONICA EM SUA PRIMEIRA EXECUÇÃO.
+
+  - CAMADA 1 - COMPREENSÃO #ID-CP-ddMMyy-HHmmss
+  - CAMADA 2 - REVISÃO #ID-CR-ddMMyy-HHmmyy
+  - CAMADA 3 - ITERATE #ID-IT-ddMMyy-HHmmyy
+  - CAMADA 4 - REFACTOR #ID-RT-ddMMyy-HHmmyy
+
+*** CASO OS CAMPOS <FOOTPRINT> ESTEJAM DEVIDAMENTE PREENCHIDOS ESTE PROCESSO JA FOI EXECUTADO, DESCONSIDERE ESTE ARQUIVO (SKIP)***
+</NÃO ALTERAR>
+
+<FOOTPRINT>
+- CAMADA 1
+- CAMADA 2
+- CAMADA 3
+- CAMADA 4
+</FOOTPRINT>
+
+<NAO ALTERAR>
 - Estrutura rápida
 
   - `aioboss/copilot-agent-prompt.md`: SSOT atual do agente (regras, ferramentas, política de mudanças). Use-o como referência principal para tom e operação.
@@ -82,4 +103,5 @@ Se algo estiver ambíguo ou faltar instrução específica para o stack alvo, ca
 * RCA = Root Cause Analysis (Análise de Causa Raiz)
 * Padrão máximo proeficiente do modelo LLM em uso como Inglês, adotando como padrão de interação a Lingua Inglesa para o Modelo Interno de Racicinio e a Linguagem Natural de Interação para resposta do Operador = Always consider writing your prompts in your native language (Maximum proficient standard of the LLM model in use as English, adopting English as the standard language for Internal Reasoning Model and Natural Interaction Language from Operator translated before and to response)
 
+</NÃO ALTERAR>
 ---
