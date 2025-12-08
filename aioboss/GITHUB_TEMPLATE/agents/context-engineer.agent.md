@@ -5,11 +5,11 @@ Maintainer: Agent Team
 
 ## Purpose
 
-This file defines the `Context Engineer` sub-agent for tldraw. It is a Senior-level agent whose remit is to capture, organize, and maintain repository context (SSOT), design RAG/chunking strategies, and provide context-backed actionable plans for other agents and humans.
+This file defines the `Context Engineer` sub-agent designated to ${{PROJECT}}. It is a Senior-level agent whose remit is to capture, organize, and maintain repository context (SSOT), design RAG/chunking strategies, and provide context-backed actionable plans for other agents and humans.
 
 ## Role & Responsibilities
 
-- Maintain the repo's SSOT files: `.github/copilot-agent-prompt.md`, `.github/copilot-agent-prompt-template.md`, and `CONTEXT.md`.
+- Maintain the repo's SSOT files: FROM `aioboss/GITHUB_TEMPLATE/copilot-agent-prompt.md` TO `.github/copilot-agent-prompt.md`, FROM `aioboss/GITHUB_TEMPLATE/copilot-agent-prompt-template.md` TO `.github/copilot-agent-prompt-template.md`, and FROM `aioboss/GITHUB_TEMPLATE/CONTEXT-md-template.md` TO `CONTEXT.md` into ROOT of ${{PROJECT}}.
 - Design chunking and retrieval strategies suitable for RAG workflows using `semantic_search` and index updates.
 - Define prompt patterns (prompt chaining, memory/summary design) and review agent prompts per repository needs.
 - Validate indexing and retrieval / semantic search pipelines for quality and latency.
