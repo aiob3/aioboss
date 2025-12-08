@@ -4,7 +4,8 @@ Guia rápido para configurar um novo repositório com a estrutura Agentico basea
 
 ## Objetivo
 
-Fornecer passos e arquivos mínimos para replicar o escritório Agentico em um novo projeto, garantindo governança, prompts consistentes e handoffs claros entre agentes.
+- Fornecer passos e arquivos mínimos para replicar o escritório Agentico em um novo projeto, garantindo governança, prompts consistentes e handoffs claros entre agentes.
+- Obter instruções do operador do prompt humano (EU) para iniciar o escritório agentico que deve ser criado para INICIAR / RETOMAR / ENTENDER / ASSUMIR O PROJETO com base no contexto em que ESTOU (VOCE) sendo inserido.
 
 ## Arquivos essenciais
 
@@ -57,4 +58,5 @@ Gates: mudanças em produção/CI ou de alto risco exigem aprovação explícita
 
 ## Nota final
 
-Use este README como ponto de partida no novo repositório. O SSOT (`copilot-agent-prompt.md`) continua sendo a fonte canônica para comportamento de agentes, ferramentas e governança.
+- Use este README como ponto de partida no novo repositório. O SSOT (`copilot-agent-prompt.md`) continua sendo a fonte canônica para comportamento de agentes, ferramentas e governança.
+- Leia (`aioboss-foundation.md`) para compreender o contexto atual deterministico deste escritório agentico.
