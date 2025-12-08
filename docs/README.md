@@ -68,12 +68,12 @@ Projeto Novo (clonado)
 
 ### Os 4 Agentes Core (MVP)
 
-| Agente | Responsabilidade | Quando Acionado |
-|--------|------------------|-----------------|
+| Agente               | Responsabilidade                    | Quando Acionado                       |
+| -------------------- | ----------------------------------- | ------------------------------------- |
 | **Context Engineer** | Mapear/manter SSOT, CONTEXT.md, RAG | Você: "update context", "map project" |
-| **Task Planner** | Quebrar requisitos em sub-tasks | Você: "como implementar feature X?" |
-| **Dev Agent** | Implementar código, testes, PRs | Task Planner → Dev Agent (chain) |
-| **Head-of-Office** | Aprovação final, governança | Antes de merge crítico |
+| **Task Planner**     | Quebrar requisitos em sub-tasks     | Você: "como implementar feature X?"   |
+| **Dev Agent**        | Implementar código, testes, PRs     | Task Planner → Dev Agent (chain)      |
+| **Head-of-Office**   | Aprovação final, governança         | Antes de merge crítico                |
 
 Agentes FUTURE (Phase 2):
 - Product Manager (OKRs, backlog)
@@ -320,14 +320,14 @@ Context Engineer:
 
 ## Project Identity
 
-| Key | Value |
-|-----|-------|
-| Name | [PROJECT_NAME] |
-| Repository | [GITHUB_URL] |
-| Tech Stack | [STACK] |
-| Node.js | ^20.0.0 |
-| React | ^18.0.0 |
-| Phase | Prototype / MVP / Production |
+| Key        | Value                        |
+| ---------- | ---------------------------- |
+| Name       | [PROJECT_NAME]               |
+| Repository | [GITHUB_URL]                 |
+| Tech Stack | [STACK]                      |
+| Node.js    | ^20.0.0                      |
+| React      | ^18.0.0                      |
+| Phase      | Prototype / MVP / Production |
 
 ## Current State
 
@@ -352,21 +352,21 @@ Context Engineer:
 
 All chunks stored in `.aioboss/chunks/`
 
-| Chunk ID | Summary | Source | Keywords |
-|----------|---------|--------|----------|
-| c1-arch-overview | Core architecture design | packages/editor/src/Editor.ts | editor, core, architecture |
-| c2-auth | Authentication flow | src/auth/ | auth, oauth2, jwt |
-| c3-db-schema | Database schema | schema.prisma | database, tables, relations |
+| Chunk ID         | Summary                  | Source                        | Keywords                    |
+| ---------------- | ------------------------ | ----------------------------- | --------------------------- |
+| c1-arch-overview | Core architecture design | packages/editor/src/Editor.ts | editor, core, architecture  |
+| c2-auth          | Authentication flow      | src/auth/                     | auth, oauth2, jwt           |
+| c3-db-schema     | Database schema          | schema.prisma                 | database, tables, relations |
 
 ## Team & Roles
 
-| Role | Owner | Status |
-|------|-------|--------|
-| Context Engineer | Copilot | Active |
-| Dev Agent | Copilot | Active |
-| Task Planner | Copilot | Active |
-| Head-of-Office | Human | Active |
-| Product Manager | TBD | Pending |
+| Role             | Owner   | Status  |
+| ---------------- | ------- | ------- |
+| Context Engineer | Copilot | Active  |
+| Dev Agent        | Copilot | Active  |
+| Task Planner     | Copilot | Active  |
+| Head-of-Office   | Human   | Active  |
+| Product Manager  | TBD     | Pending |
 
 ## Decision Log (ADR-style)
 
@@ -378,11 +378,11 @@ All chunks stored in `.aioboss/chunks/`
 
 ## Glossário de Domínio
 
-| Termo | Significado |
-|-------|-------------|
-| SSOT | Single Source of Truth |
-| Context Engineer | Agente que mapeia e mantém CONTEXT.md |
-| Chunk | Fragmento de contexto indexado para RAG |
+| Termo            | Significado                             |
+| ---------------- | --------------------------------------- |
+| SSOT             | Single Source of Truth                  |
+| Context Engineer | Agente que mapeia e mantém CONTEXT.md   |
+| Chunk            | Fragmento de contexto indexado para RAG |
 
 ---
 

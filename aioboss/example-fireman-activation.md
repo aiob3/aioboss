@@ -11,7 +11,7 @@
 
 Você tem:
 
-```
+```text
 - Projeto em desenvolvimento há 60 dias
 - 250+ arquivos em src/, api/, db/
 - Código cresceu desordenado (sem arquitetura inicial)
@@ -69,13 +69,14 @@ ls -la aioboss/
 ### 2.1 Abrir Copilot Chat
 
 Em VSCode:
+
 - `Cmd+Shift+P` (macOS) ou `Ctrl+Shift+P` (Windows)
 - Digitar: "Copilot: Open Chat"
 - Ou: `Ctrl+L` (atalho direto)
 
 ### 2.2 Digitar o Bootstrap Prompt
 
-```
+```text
 🚨 ACTIVATE FIREMAN MODE
 
 Carregue os dados agênticos do #aioboss.
@@ -97,7 +98,7 @@ Retórica: Ethos, Pathos, Logos
 
 Copilot vai:
 
-```
+```text
 ✅ FASE 1: READ (2-3 min)
 > read_file: aioboss/agent-architecture.md
 > read_file: aioboss/copilot-instructions.md
@@ -218,7 +219,7 @@ Agora seu projeto está **governado e estruturado**.
 
 ### O Que Mudou?
 
-```
+```text
 ANTES:
 ❌ Você não sabe a arquitetura
 ❌ Copilot alucina (sem contexto)
@@ -241,7 +242,7 @@ DEPOIS:
 
 ### Exemplo 1: "Qual é o estado do meu projeto?"
 
-```
+```text
 Você: Qual é o estado atual do meu projeto?
 
 Copilot (Context Engineer mode):
@@ -265,7 +266,7 @@ Qual desses você quer atacar primeiro?
 
 ### Exemplo 2: "Preciso implementar pagamento com Stripe. Qual é o plano?"
 
-```
+```text
 Você: Preciso implementar pagamento com Stripe em 5 dias. Qual é o plano?
 
 Copilot (Task Planner mode):
@@ -385,7 +386,7 @@ FASE 4: DOCS & DEPLOY (Day 5 - 4h)
 
 ### Exemplo 3: "Dev Agent, implementa Task 1.2 (instalar Stripe SDK)"
 
-```
+```text
 Você: Dev Agent, implementa Task 1.2 (instalar Stripe SDK)
 
 Copilot (Dev Agent mode):
@@ -470,7 +471,7 @@ Próxima: Task 1.3 (Stripe service) ou aguardar?
 
 ### Exemplo 4: "Head-of-Office, aprova?"
 
-```
+```text
 Você: Head-of-Office, aprova antes de merge?
 
 Copilot (Head-of-Office mode):
@@ -520,7 +521,7 @@ Próximas ações:
 
 ## 🎬 RESULTADO FINAL (Fim do Dia 1)
 
-```
+```text
 ANTES (Início do dia):
 ❌ Você estava em caos
 ❌ 60 dias de código sem estrutura
