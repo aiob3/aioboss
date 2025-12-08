@@ -94,12 +94,12 @@ Projeto Novo OU Em Andamento (Caos ou Ordem)
 
 ### Os 4 Agentes Core (MVP)
 
-| Agente | Responsabilidade | Acionado Quando |
-|--------|------------------|-----------------|
-| **Context Engineer** | Mapear caos → CONTEXT.md, SSOT, RAG | "map project", "update context" |
-| **Task Planner** | Quebrar requisitos → sub-tasks | "como implementar feature X?" |
-| **Dev Agent** | Implementar código, testes, PRs | Task Planner → Dev Agent (chain) |
-| **Head-of-Office** | Aprovação final, governança, escalações | Antes de merge crítico |
+| Agente               | Responsabilidade                        | Acionado Quando                  |
+| -------------------- | --------------------------------------- | -------------------------------- |
+| **Context Engineer** | Mapear caos → CONTEXT.md, SSOT, RAG     | "map project", "update context"  |
+| **Task Planner**     | Quebrar requisitos → sub-tasks          | "como implementar feature X?"    |
+| **Dev Agent**        | Implementar código, testes, PRs         | Task Planner → Dev Agent (chain) |
+| **Head-of-Office**   | Aprovação final, governança, escalações | Antes de merge crítico           |
 
 ---
 
@@ -463,13 +463,13 @@ Logos = Explique raciocínio (faça planos estruturados)
 
 ## Project Identity
 
-| Chave | Valor |
-|-------|-------|
-| Nome | [AUTO] |
-| Repositório | [AUTO] |
-| Stack | [AUTO] |
-| Fase | Prototype / MVP / Production |
-| Última modificação | [AUTO] |
+| Chave              | Valor                        |
+| ------------------ | ---------------------------- |
+| Nome               | [AUTO]                       |
+| Repositório        | [AUTO]                       |
+| Stack              | [AUTO]                       |
+| Fase               | Prototype / MVP / Production |
+| Última modificação | [AUTO]                       |
 
 ## Current State
 
@@ -491,10 +491,10 @@ Logos = Explique raciocínio (faça planos estruturados)
 
 ## RAG Chunks Index
 
-| ID | Summary | Source | Keywords |
-|----|---------|--------|----------|
-| c1 | [AUTO] | [AUTO] | [AUTO] |
-| c2 | [AUTO] | [AUTO] | [AUTO] |
+| ID  | Summary | Source | Keywords |
+| --- | ------- | ------ | -------- |
+| c1  | [AUTO]  | [AUTO] | [AUTO]   |
+| c2  | [AUTO]  | [AUTO] | [AUTO]   |
 
 ---
 
@@ -712,12 +712,12 @@ Você saberá que **Fireman** está funcionando quando:
 
 ### ✅ Decisões Fechadas
 
-| Pergunta | Resposta |
-|----------|----------|
-| VSCode Integration | HYBRID (auto + manual) |
+| Pergunta               | Resposta                     |
+| ---------------------- | ---------------------------- |
+| VSCode Integration     | HYBRID (auto + manual)       |
 | Master Prompt Location | Ambos (.github/ + .aioboss/) |
-| Bootstrap Prompt | Enxuto (1 liner + automagic) |
-| **Codinome** | **Fireman / AIOBoss** |
+| Bootstrap Prompt       | Enxuto (1 liner + automagic) |
+| **Codinome**           | **Fireman / AIOBoss**        |
 
 ### ✅ Tier 1 Artifacts (Prontos para Criar)
 
