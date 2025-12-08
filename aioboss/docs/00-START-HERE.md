@@ -11,10 +11,10 @@
 6 artefatos criados neste workspace (ATIVOS, não no GitHub ainda):
 
 ```text
-1. bootstrap-prompt.md ..................... Como ativar Fireman
+1. bootstrap-prompt.md ..................... Como ativar AIOBoss
 2. copilot-instructions.md ................ Master Prompt (o "cérebro")
 3. CONTEXT.md ............................. Template para SSOT vivo
-4. example-fireman-activation.md ......... Walkthrough completo
+4. example-AIOBoss-activation.md ......... Walkthrough completo
 5. chunks-README.md ....................... Guia para RAG/chunks
 6. TIER-1-SUMMARY.md ...................... Este resumo de entrega
 ```
@@ -34,7 +34,7 @@
 2. Leia rapidamente cada artefato (15 min)
    - bootstrap-prompt.md (5 min)
    - copilot-instructions.md (5 min)
-   - example-fireman-activation.md (5 min)
+   - example-AIOBoss-activation.md (5 min)
 
 3. Pergunte-se:
    - ❓ "Isto faz sentido pro meu caso?"
@@ -129,14 +129,14 @@ Quando tudo estiver no GitHub, seu repositório `aiob3/aioboss` terá:
    └─ bootstrap-prompt.md ..................... NOVO
    └─ copilot-instructions.md ................ NOVO
    └─ CONTEXT.md ............................. NOVO
-   └─ example-fireman-activation.md ......... NOVO
+   └─ example-AIOBoss-activation.md ......... NOVO
    └─ chunks/README.md ....................... NOVO
 
 RESULTADO:
 → Qualquer solo dev pode:
   1. Clonar aioboss
   2. Copiar aioboss/ para seu projeto
-  3. Digitar "ACTIVATE FIREMAN MODE"
+  3. Digitar "ACTIVATE AIOBoss MODE"
   4. Em 30 min: Projeto mapeado + Copilot governado
   5. Começar a delegar tarefas a agentes estruturados
 ```
@@ -180,7 +180,7 @@ ENTÃO:
 1. Clone o aioboss localmente
 2. Copie aioboss/ (estrutura vazia) para seu projeto
 3. Abra VSCode
-4. Copilot Chat: Digite "ACTIVATE FIREMAN MODE"
+4. Copilot Chat: Digite "ACTIVATE AIOBoss MODE"
 5. Veja o que acontece
 
 Isto vai validar que tudo funciona antes de commitar.
@@ -206,7 +206,7 @@ Isto vai validar que tudo funciona antes de commitar.
 Setup (1 vez):
 - Clonar aioboss → 2 min
 - Copiar aioboss/ → 1 min
-- ACTIVATE FIREMAN → 30 min
+- ACTIVATE AIOBoss → 30 min
 - Total: 33 min
 
 Uso depois (recorrente):
@@ -245,7 +245,7 @@ Uso depois (recorrente):
 "Leitura rápida, algumas sugestões:
 - Em bootstrap-prompt, deveria mencionar [X]
 - Em copilot-instructions, a seção [Y] é confusa
-- Em example-fireman-activation, falta [Z]"
+- Em example-AIOBoss-activation, falta [Z]"
 ```
 
 #### Opção C: Testar Primeiro
@@ -279,10 +279,10 @@ Se você quer consultar algo rápido:
 
 | Pergunta                       | Veja Isto                     |
 | ------------------------------ | ----------------------------- |
-| "Como ativar Fireman?"         | bootstrap-prompt.md           |
+| "Como ativar AIOBoss?"         | bootstrap-prompt.md           |
 | "Como Copilot funciona?"       | copilot-instructions.md       |
 | "Qual é o estado do projeto?"  | CONTEXT.md                    |
-| "Como usar isto na prática?"   | example-fireman-activation.md |
+| "Como usar isto na prática?"   | example-AIOBoss-activation.md |
 | "Como organizar documentação?" | chunks-README.md              |
 | "Resumo de tudo"               | TIER-1-SUMMARY.md             |
 
@@ -302,7 +302,7 @@ Se você quer consultar algo rápido:
 bootstrap-prompt.md
 ├─ Copy-paste trigger
 ├─ Você digita isto no Copilot
-└─ Ativa o "Fireman Mode"
+└─ Ativa o "AIOBoss Mode"
 
 copilot-instructions.md
 ├─ Master Prompt (~2200 palavras)
@@ -314,7 +314,7 @@ CONTEXT.md
 ├─ Auto-updated quando código muda
 └─ Agentes consultam isto para memória
 
-example-fireman-activation.md
+example-AIOBoss-activation.md
 ├─ Walkthrough completo (novo projeto → resultado)
 ├─ 4 exemplos reais de uso
 └─ Mostra o que esperar
@@ -330,7 +330,7 @@ chunks-README.md
 
 Quando um solo dev usa AIOBoss:
 1. Copia aioboss/ para seu projeto
-2. Digita "ACTIVATE FIREMAN MODE"
+2. Digita "ACTIVATE AIOBoss MODE"
 3. Em 30 min: projeto mapeado + Copilot governado
 4. Começa a delegar tarefas a agentes estruturados
 5. Não fica locked-in em nenhuma plataforma

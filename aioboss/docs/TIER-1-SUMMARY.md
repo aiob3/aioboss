@@ -11,14 +11,14 @@
 
 ### 1️⃣ **bootstrap-prompt.md**
 
-**Propósito:** Copy-paste trigger para ativar Fireman Mode  
+**Propósito:** Copy-paste trigger para ativar AIOBoss Mode  
 **Tamanho:** ~400 palavras  
 **Audiência:** Solo dev que quer resgatar projeto do caos  
 **Conteúdo:**
 
 - Prompt que você digita no Copilot
 - O que esperar (timeline)
-- Próximas instruções após "FIREMAN ENGAGED"
+- Próximas instruções após "AIOBoss ENGAGED"
 - Quando usar
 
 **Por quê importa:**
@@ -30,7 +30,7 @@
 
 ### 2️⃣ **copilot-instructions.md**
 
-**Propósito:** Master Prompt (SSOT operacional) para Fireman Mode  
+**Propósito:** Master Prompt (SSOT operacional) para AIOBoss Mode  
 **Tamanho:** ~2200 palavras  
 **Audiência:** Copilot (quando este arquivo é carregado, Copilot se torna agentico)  
 **Conteúdo:**
@@ -44,7 +44,7 @@
 - Métricas de sucesso
 
 **Por quê importa:**
-> Este é o "cérebro" do Fireman. Copilot lê isto e sabe como agir.
+> Este é o "cérebro" do AIOBoss. Copilot lê isto e sabe como agir.
 
 **Localização final:** `aioboss/copilot-instructions.md`
 
@@ -77,7 +77,7 @@
 
 ---
 
-### 4️⃣ **example-fireman-activation.md**
+### 4️⃣ **example-AIOBoss-activation.md**
 
 **Propósito:** Walkthrough completo de caso real (novo projeto → resultado)  
 **Tamanho:** ~2500 palavras  
@@ -86,7 +86,7 @@
 
 - Situação inicial (caos realista)
 - Passo 1: Setup (5 min)
-- Passo 2: ACTIVATE FIREMAN (30 min)
+- Passo 2: ACTIVATE AIOBoss (30 min)
 - Passo 3: Você foi rescatado (5 min)
 - Passo 4: Use os agentes (com 4 exemplos reais)
   - Exemplo 1: "Qual é o estado?"
@@ -99,7 +99,7 @@
 **Por quê importa:**
 > Não é teórico. Você vê exatamente o que acontece, passo a passo, com output real.
 
-**Localização final:** `aioboss/example-fireman-activation.md`
+**Localização final:** `aioboss/example-AIOBoss-activation.md`
 
 ---
 
@@ -134,7 +134,7 @@
 | bootstrap-prompt.md           | Template      | ~400 w      | Humano      | Nunca (estável)                    |
 | copilot-instructions.md       | Master Prompt | ~2200 w     | Copilot     | Raramente (atualizações de regras) |
 | CONTEXT.md                    | SSOT Vivo     | ~1800 w     | Todos       | Frequente (quando código muda)     |
-| example-fireman-activation.md | Documentação  | ~2500 w     | Humano      | Nunca (referência)                 |
+| example-AIOBoss-activation.md | Documentação  | ~2500 w     | Humano      | Nunca (referência)                 |
 | chunks-README.md              | Documentação  | ~1600 w     | Humano + CE | Raramente (nova convenção)         |
 | **TOTAL**                     |               | **~9100 w** |             |                                    |
 
@@ -146,7 +146,7 @@
 ┌─────────────────────────────────────────────────────────────────┐
 │                     VOCÊ (Solo Dev)                             │
 │                                                                 │
-│ Digita: "ACTIVATE FIREMAN MODE" [bootstrap-prompt.md]           │
+│ Digita: "ACTIVATE AIOBoss MODE" [bootstrap-prompt.md]           │
 └────────────────┬────────────────────────────────────────────────┘
                  │
                  ▼
@@ -171,7 +171,7 @@
                  │
                  ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│                   RESULTADO (Fireman Engaged)                   │
+│                   RESULTADO (AIOBoss Engaged)                   │
 │                                                                 │
 │ Você agora tem:                                                 │
 │ ✅ CONTEXT.md = SSOT (verdade do projeto)                       │
@@ -211,7 +211,7 @@ Antes de você fazer upload ao GitHub, valide:
   - [ ] Métricas de saúde fazem sentido
   - [ ] Quick reference no final é útil
 
-- [ ] **example-fireman-activation.md**
+- [ ] **example-AIOBoss-activation.md**
   - [ ] Cenário inicial é realista (seu caso?)
   - [ ] 4 passos são sequenciais (faz sentido)
   - [ ] 4 exemplos (status, plano, implementa, aprova) são variados
@@ -237,13 +237,13 @@ Antes de você fazer upload ao GitHub, valide:
   - [ ] `bootstrap-prompt.md`
   - [ ] `copilot-instructions.md`
   - [ ] `CONTEXT.md`
-  - [ ] `example-fireman-activation.md`
+  - [ ] `example-AIOBoss-activation.md`
   - [ ] `chunks/README.md`
 
 ### Consistência
 
 - [ ] Terminologia é consistente:
-  - [ ] "Fireman Mode" vs "AIOBoss" (qual é o nome?)
+  - [ ] "AIOBoss Mode" vs "AIOBoss" (qual é o nome?)
   - [ ] "Solo Founder" vs "Solo Dev" (qual é o termo?)
   - [ ] Roles sempre escritos da mesma forma
 
@@ -251,7 +251,7 @@ Antes de você fazer upload ao GitHub, valide:
   - [ ] bootstrap-prompt → copilot-instructions
   - [ ] copilot-instructions → agent-architecture
   - [ ] CONTEXT.md → chunks/README
-  - [ ] example-fireman-activation → bootstrap-prompt
+  - [ ] example-AIOBoss-activation → bootstrap-prompt
 
 ---
 
@@ -281,12 +281,12 @@ cd aioboss
 cp bootstrap-prompt.md aioboss/
 cp copilot-instructions.md aioboss/
 cp CONTEXT.md aioboss/
-cp example-fireman-activation.md aioboss/
+cp example-AIOBoss-activation.md aioboss/
 cp chunks-README.md aioboss/chunks/README.md
 
 # Commit + push
 git add aioboss/
-git commit -m "Tier 1: Add Fireman activation artifacts (bootstrap, instructions, context, example, chunks)"
+git commit -m "Tier 1: Add AIOBoss activation artifacts (bootstrap, instructions, context, example, chunks)"
 git push origin main
 ```
 
@@ -300,11 +300,11 @@ Esperado:
 ✅ aioboss/bootstrap-prompt.md
 ✅ aioboss/copilot-instructions.md
 ✅ aioboss/CONTEXT.md
-✅ aioboss/example-fireman-activation.md
+✅ aioboss/example-AIOBoss-activation.md
 ✅ aioboss/chunks/README.md
 ```
 
-### Passo D: Test Fireman (Optional)
+### Passo D: Test AIOBoss (Optional)
 
 Se você quer testar antes de considerar "completo":
 
@@ -312,7 +312,7 @@ Se você quer testar antes de considerar "completo":
 1. Clone seu próprio projeto em novo diretório
 2. Copie aioboss/ (estrutura vazia)
 3. Abra VSCode
-4. Digite no Copilot: "ACTIVATE FIREMAN MODE..."
+4. Digite no Copilot: "ACTIVATE AIOBoss MODE..."
 5. Verifique se:
    - Copilot lê bootstrap-prompt
    - Carrega copilot-instructions
@@ -337,7 +337,7 @@ Novo (Tier 1 Final):
 ├── bootstrap-prompt.md         ← Como ativar (NOVO)
 ├── copilot-instructions.md     ← Master prompt (NOVO, substitui parcialmente)
 ├── CONTEXT.md                  ← Template SSOT (NOVO)
-├── example-fireman-activation.md ← Walkthrough (NOVO)
+├── example-AIOBoss-activation.md ← Walkthrough (NOVO)
 └── chunks/README.md            ← Guia RAG (NOVO)
 
 Resultado:
@@ -352,7 +352,7 @@ Quando você revisar, pode fazer perguntas como:
 
 ```text
 ❓ "Na seção X de bootstrap-prompt.md, deveria dizer Y?"
-❓ "O exemplo em example-fireman-activation.md não faz sentido para meu caso"
+❓ "O exemplo em example-AIOBoss-activation.md não faz sentido para meu caso"
 ❓ "Falta mencionar [feature] em copilot-instructions.md"
 ❓ "Chunks-README.md deveria incluir [convenção]?"
 ❓ "CONTEXT.md template tem muitas seções, posso simplificar?"

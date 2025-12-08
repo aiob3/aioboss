@@ -1,4 +1,4 @@
-# EXEMPLO: ACTIVATE FIREMAN MODE
+# EXEMPLO: ACTIVATE AIOBoss MODE
 
 **Cenário Real:** Solo dev em caos tentando resgatar um projeto
 
@@ -64,7 +64,7 @@ ls -la aioboss/
 
 ---
 
-## 🔥 PASSO 2: ATIVAR FIREMAN (30 MINUTOS)
+## 🔥 PASSO 2: ATIVAR AIOBoss (30 MINUTOS)
 
 ### 2.1 Abrir Copilot Chat
 
@@ -77,7 +77,7 @@ Em VSCode:
 ### 2.2 Digitar o Bootstrap Prompt
 
 ```text
-🚨 ACTIVATE FIREMAN MODE
+🚨 ACTIVATE AIOBoss MODE
 
 Carregue os dados agênticos do #aioboss.
 
@@ -88,7 +88,7 @@ Siga:
 4. Escanear repositório (README, package.json, src/, main code files)
 5. Gerar aioboss/CONTEXT.md com estado atual
 6. Indexar chunks em aioboss/chunks/
-7. Confirme quando pronto: "✅ FIREMAN ENGAGED"
+7. Confirme quando pronto: "✅ AIOBoss ENGAGED"
 
 Princípios: DRY, KISS, SSOT
 Retórica: Ethos, Pathos, Logos
@@ -200,7 +200,7 @@ Criando aioboss/chunks/:
 
 ---
 
-✅ FIREMAN ENGAGED
+✅ AIOBoss ENGAGED
 
 Sistema agentico ativo. Pronto para receber tarefas.
 
@@ -538,7 +538,7 @@ DEPOIS (Fim do dia):
 
 TIMELINE:
 - Setup: 5min
-- ACTIVATE FIREMAN: 30min
+- ACTIVATE AIOBoss: 30min
 - Leverage agentes: 25min
 - TOTAL: 1 hora
 
@@ -556,7 +556,7 @@ VALUE DELIVERED:
 
 ### O Que Você Aprendeu
 
-1. **ACTIVATE FIREMAN MODE** = seu atalho para resgate
+1. **ACTIVATE AIOBoss MODE** = seu atalho para resgate
 2. **Context Engineering** = memória persistente (não dependa só de prompt)
 3. **Multi-agent orchestration** = delegue tarefas a agentes, você aprova
 4. **SSOT** = nunca perca a arquitetura novamente
@@ -565,8 +565,8 @@ VALUE DELIVERED:
 ### Próximas Vezes
 
 - Novo projeto? Copie aioboss/ no dia 1
-- Projeto em caos? ACTIVATE FIREMAN MODE
-- Quer rescan? RESCAN FIREMAN
+- Projeto em caos? ACTIVATE AIOBoss MODE
+- Quer rescan? RESCAN AIOBoss
 - Dúvida sobre arquitetura? Verifique CONTEXT.md
 
 ### Suporte

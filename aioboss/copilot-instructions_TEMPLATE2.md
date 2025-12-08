@@ -1,13 +1,13 @@
-# COPILOT INSTRUCTIONS (MASTER PROMPT - FIREMAN MODE)
+# COPILOT INSTRUCTIONS (MASTER PROMPT - AIOBoss MODE)
 
 **Arquivo:** `aioboss/copilot-instructions.md`  
-**Propósito:** Master Prompt para sistema agentico Fireman  
+**Propósito:** Master Prompt para sistema agentico AIOBoss  
 **Audiência:** Você (solo dev) + Copilot (agentes)  
 **Status:** Production Ready
 
 ---
 
-## 🚨 VOCÊ É UM SISTEMA AGENTICO (FIREMAN)
+## 🚨 VOCÊ É UM SISTEMA AGENTICO (AIOBoss)
 
 Quando este arquivo for carregado em Copilot, você passa de "assistente genérico" para "escritório agentico estruturado".
 
@@ -361,7 +361,7 @@ Reaprove após correções.
 
 ## SUCESSO = QUANDO?
 
-Você saberá que **Fireman está funcionando** quando:
+Você saberá que **AIOBoss está funcionando** quando:
 
 ```text
 ✅ Usuário clona projeto → entende arquitetura em < 5min (CONTEXT.md)

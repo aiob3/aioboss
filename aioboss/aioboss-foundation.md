@@ -2,7 +2,7 @@
 ## Single Source of Truth (SSOT) para Escritórios Agenticos
 
 **ID Principal:** 071225-212900  
-**Versão:** 1.1.0 (Fireman Integration Layer)  
+**Versão:** 1.1.0 (AIOBoss Integration Layer)  
 **Status:** Ready for Tier 1 Creation  
 **Última Atualização:** 2024-12-07 21:29 UTC-3
 
@@ -29,14 +29,14 @@ Raiz do Problema:
 └─ Copilot/Claude alucinam porque falta MEMÓRIA PERSISTENTE
 ```
 
-### O Cenário AIOBoss Intervém: "Fireman Mode"
+### O Cenário AIOBoss Intervém: "AIOBoss Mode"
 
 ```
 Você está em CAOS. Você:
 1. Clona seu projeto existente no VSCode
 2. Copia .aioboss/ para dentro do repo
 3. Digita no Copilot: "Carregue os dados agênticos do #aioboss"
-4. Copilot (agora FIREMAN) assume as rédeas
+4. Copilot (agora AIOBoss) assume as rédeas
 5. Em 30 minutos: Projeto mapeado, organizado, governado
 
 Resultado:
@@ -51,9 +51,9 @@ Resultado:
 
 ## 🎯 DEFINIÇÃO FUNDACIONAL (ATUALIZADA)
 
-### O Que É AIOBoss / Fireman
+### O Que É AIOBoss / AIOBoss
 
-AIOBoss (codinome: **Fireman**) é um **sistema de governança agentica self-contained** que, quando copiado para qualquer projeto (novo OU em andamento, organizado OU em caos), transforma Copilot/Claude/Cursor em um **virtual dev team** com:
+AIOBoss (codinome: **AIOBoss**) é um **sistema de governança agentica self-contained** que, quando copiado para qualquer projeto (novo OU em andamento, organizado OU em caos), transforma Copilot/Claude/Cursor em um **virtual dev team** com:
 
 - ✅ Memória persistente (CONTEXT.md = SSOT)
 - ✅ Estrutura de governança clara (agentes com roles definidos)
@@ -103,7 +103,7 @@ Projeto Novo OU Em Andamento (Caos ou Ordem)
 
 ---
 
-## 🔄 FLUXO END-TO-END: FIREMAN MODE (Resgate)
+## 🔄 FLUXO END-TO-END: AIOBoss MODE (Resgate)
 
 ### FASE 0: O Ponto de Partida (Seu Cenário Real)
 
@@ -131,12 +131,12 @@ cp -r ~/aioboss/.aioboss ./.aioboss
 code .
 ```
 
-### FASE 2: Fireman Activation (Copilot, Automático - 30 minutos)
+### FASE 2: AIOBoss Activation (Copilot, Automático - 30 minutos)
 
 ```
 Você digita no Copilot Chat:
 """
-🚨 ACTIVATE FIREMAN MODE
+🚨 ACTIVATE AIOBoss MODE
 
 Carregue os dados agênticos do #aioboss.
 
@@ -147,7 +147,7 @@ Siga:
 4. Escanear repositório (README.md, package.json, src/)
 5. Criar .aioboss/CONTEXT.md mapeando estado atual
 6. Indexar chunks em .aioboss/chunks/
-7. Confirme quando pronto: "✅ FIREMAN ENGAGED"
+7. Confirme quando pronto: "✅ AIOBoss ENGAGED"
 
 Princípios: DRY, KISS, SSOT
 Retórica: Ethos, Pathos, Logos
@@ -164,7 +164,7 @@ Copilot (agindo como Context Engineer):
 
 Copilot output:
 """
-🚨 FIREMAN ACTIVATED
+🚨 AIOBoss ACTIVATED
 
 ✅ Repositório mapeado:
    - Tecnologia: React + TypeScript + Tailwind
@@ -241,7 +241,7 @@ Você: "Sim"
 
 ```
 ├─ VSCode native: cria .github/copilot-instructions.md genérico (auto)
-├─ AIOBoss: você digita prompt "ACTIVATE FIREMAN MODE"
+├─ AIOBoss: você digita prompt "ACTIVATE AIOBoss MODE"
 └─ Resultado: 2-step, zero dependência de VSCode detectar nada
 ```
 
@@ -286,7 +286,7 @@ Você: "Sim"
 ```
 bootstrap-prompt.md (10 linhas)
 └─ Digitar no Copilot:
-   "ACTIVATE FIREMAN MODE. Carregue dados agênticos do #aioboss"
+   "ACTIVATE AIOBoss MODE. Carregue dados agênticos do #aioboss"
 
 Copilot internamente:
 ├─ Lê .aioboss/agent-architecture.md
@@ -513,7 +513,7 @@ Logos = Explique raciocínio (faça planos estruturados)
 Digitar isto no Copilot quando quiser ativar AIOBoss:
 
 """
-🚨 ACTIVATE FIREMAN MODE
+🚨 ACTIVATE AIOBoss MODE
 
 Carregue os dados agênticos do #aioboss.
 
@@ -524,7 +524,7 @@ Siga:
 4. Escanear repositório (README, package.json, src/)
 5. Criar .aioboss/CONTEXT.md com estado atual
 6. Indexar chunks em .aioboss/chunks/
-7. Confirme quando pronto: "✅ FIREMAN ENGAGED"
+7. Confirme quando pronto: "✅ AIOBoss ENGAGED"
 
 Princípios: DRY, KISS, SSOT
 Retórica: Ethos, Pathos, Logos
@@ -600,10 +600,10 @@ Capturar, indexar, sincronizar conhecimento do projeto.
 - ✅ CONTEXT.md ↔ código sincronizado
 ```
 
-### ✅ Artefato 3: `example-fireman-activation.md`
+### ✅ Artefato 3: `example-AIOBoss-activation.md`
 
 ```markdown
-# Exemplo: Activar Fireman Mode
+# Exemplo: Activar AIOBoss Mode
 
 ## Cenário: Solo Founder em Caos
 
@@ -622,12 +622,12 @@ cp -r ~/aioboss/.aioboss ./.aioboss
 code .
 ```
 
-## Passo 2: Ativar Fireman (30 min)
+## Passo 2: Ativar AIOBoss (30 min)
 
 Digitar no Copilot:
 
 ```
-🚨 ACTIVATE FIREMAN MODE
+🚨 ACTIVATE AIOBoss MODE
 
 Carregue os dados agênticos do #aioboss.
 
@@ -638,7 +638,7 @@ Siga:
 4. Escanear repositório (README, package.json, src/)
 5. Criar .aioboss/CONTEXT.md com estado atual
 6. Indexar chunks em .aioboss/chunks/
-7. Confirme quando pronto: "✅ FIREMAN ENGAGED"
+7. Confirme quando pronto: "✅ AIOBoss ENGAGED"
 ```
 
 ## Passo 3: Context Engineer Executa
@@ -646,7 +646,7 @@ Siga:
 Copilot mapa seu projeto:
 
 ```
-✅ FIREMAN ACTIVATED
+✅ AIOBoss ACTIVATED
 
 📊 Repositório mapeado:
    - React + TypeScript + Tailwind
@@ -679,7 +679,7 @@ Task Planner responde:
 Quer que eu comece?
 ```
 
-## Resultado: 30 Minutos de Fireman
+## Resultado: 30 Minutos de AIOBoss
 
 ```
 ✅ Seu projeto mapeado
@@ -694,7 +694,7 @@ Quer que eu comece?
 
 ## 🎯 METRICS DE SUCESSO
 
-Você saberá que **Fireman** está funcionando quando:
+Você saberá que **AIOBoss** está funcionando quando:
 
 ```
 ✅ Novo dev clona → entende arquitetura em < 5 min
@@ -717,16 +717,16 @@ Você saberá que **Fireman** está funcionando quando:
 | VSCode Integration     | HYBRID (auto + manual)       |
 | Master Prompt Location | Ambos (.github/ + .aioboss/) |
 | Bootstrap Prompt       | Enxuto (1 liner + automagic) |
-| **Codinome**           | **Fireman / AIOBoss**        |
+| **Codinome**           | **AIOBoss / AIOBoss**        |
 
 ### ✅ Tier 1 Artifacts (Prontos para Criar)
 
-- [ ] `bootstrap-prompt.md` — Trigger para Fireman
+- [ ] `bootstrap-prompt.md` — Trigger para AIOBoss
 - [ ] `context-engineer.agent.md` — Role definition
 - [ ] `agent-architecture.md` — System overview
 - [ ] `copilot-instructions.md` — Master prompt
 - [ ] `CONTEXT.md` — Template
-- [ ] `example-fireman-activation.md` — Caso real
+- [ ] `example-AIOBoss-activation.md` — Caso real
 
 ---
 
@@ -734,13 +734,13 @@ Você saberá que **Fireman** está funcionando quando:
 
 **Você aprova este racional atualizado?**
 
-Se SIM → Criaremos os 6 arquivos Tier 1 em 30 min. AIOBoss/Fireman estará vivo.
+Se SIM → Criaremos os 6 arquivos Tier 1 em 30 min. AIOBoss/AIOBoss estará vivo.
 
 Se NÃO → Qual ajuste precisa?
 
 ---
 
-**Versão:** 1.1.0 (Fireman Integration)  
+**Versão:** 1.1.0 (AIOBoss Integration)  
 **Status:** Ready for Implementation  
 **Data:** 2024-12-07 21:29 UTC-3  
 **Por:** Context Engineering Framework

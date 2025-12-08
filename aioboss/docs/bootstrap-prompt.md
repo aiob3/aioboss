@@ -44,7 +44,7 @@ Quando você digitar isso, Copilot vai:
    - Sincroniza memória
 
 4. **Confirmation** (< 1 min)
-   - Confirma: "✅ FIREMAN ENGAGED"
+   - Confirma: "✅ AIOBoss ENGAGED"
    - Pronto para receber tarefas
 
 - **Total: ~20-30 minutos para projeto novo ou em caos**
@@ -86,7 +86,7 @@ Copilot (Head-of-Office): [Aprova ou solicita ajustes]
 Se você quer que AIOBoss **rescaneie** (código mudou bastante):
 
 ```text
-🔄 RESCAN FIREMAN
+🔄 RESCAN AIOBoss
 
 Atualize o estado do projeto:
 1. Re-escanear repositório

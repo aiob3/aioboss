@@ -423,7 +423,7 @@ Próxima atualização automática: [AUTO: +7 dias ou quando código mudar]
 Próxima atualização manual: [Você define quando necessário]
 
 Comando para forçar rescan:
-🔄 RESCAN FIREMAN
+🔄 RESCAN AIOBoss
   1. Re-escanear repositório
   2. Atualizar CONTEXT.md
   3. Re-indexar chunks
